@@ -1,0 +1,34 @@
+//@import './App.scss';
+
+.cards{
+    margin:10px;
+    flex:0 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x:auto ;
+    
+    
+}
+.card{
+    margin:0px 10px;
+}
+.card--img{
+    width: 150px;
+    border-radius: 9px;
+    height: 200px;
+}
+.card--line1{
+    display: flex;
+}
+.card--line1-1,.card--line1-2,.card--line2-text,.card--line3-text{
+    margin: 5px 0px;
+}
+.card--line1-1,.card--line1-2{
+    font-size:small;
+    padding: 0px 5px 0px 2px;
+}
+
+.card--line2-text,.card--line3-text{
+    font-size:x-small;
+}

@@ -1,0 +1,32 @@
+@import './App.scss';
+
+.dishCard{
+    background-color:antiquewhite;
+    width: 120px;
+    height: 220px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    //box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    h5{
+        margin-top: 0px;
+        min-height: 32PX;
+    }
+    p{
+        margin: 0px auto 10px;
+    }
+
+    bottom{
+        margin-bottom: 0px;
+    }
+    
+}
+.cardImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}

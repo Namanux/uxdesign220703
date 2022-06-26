@@ -1,0 +1,11 @@
+@import './boilerplate.scss';
+@import './index.scss';
+@import './variables.scss';
+
+.dishCards{
+    display: flex;          
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+            
+     }

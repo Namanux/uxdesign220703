@@ -1,0 +1,12 @@
+@import './App.scss';
+
+.imageScroll{
+    display: flex;
+    flex-direction: column;
+    background-color:$primeryWhite;
+
+    img{
+        margin: 5px 5px 0px 5px;
+        object-fit: scale-down;
+    }   
+}
